@@ -2,9 +2,10 @@ package Bank;
 
 public class Account implements AccountService{
 
-	int sum=0; 
-
+	static int sum=0; 
+	
 	@Override
+
 	public void deposit(int amount) {
 		// TODO Auto-generated method stub
 		sum=sum+amount; 
